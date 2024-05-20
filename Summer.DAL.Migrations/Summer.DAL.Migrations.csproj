@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="Migrations\2024\05\001_INITIAL.sql" />
+      <EmbeddedResource Include="Migrations\2024\05\001_INITIAL.sql" />
+    </ItemGroup>
+
+</Project>
